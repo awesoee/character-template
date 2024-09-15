@@ -1,5 +1,5 @@
 // Character stats for CharacterTemplate
-{
+var characterStats:CharacterStats = {
 
 	spriteContent: self.getResource().getContent("charactertemplate"),
 	//GENERIC STATS
@@ -100,3 +100,5 @@
 	hurtHeavySilenceRate: 0,
 	koVoiceSilenceRate: 0,
 }
+
+return characterStats;
